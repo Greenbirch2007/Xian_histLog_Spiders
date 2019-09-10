@@ -1,0 +1,9 @@
+
+
+pip install Pillow -i https://pypi.doubanio.com/simple
+
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple pip -U PIL
+
+1. 给图片加水印(批量处理！)
+2. 把图片切分成规定规格
+3. 文字使用正则进行处理

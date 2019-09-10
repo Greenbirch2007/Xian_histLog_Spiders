@@ -1,0 +1,42 @@
+图像存储
+图像显示
+图像处理
+使用 Image 类
+读写图像
+剪切，粘贴，合并图像
+几何变换
+颜色变换
+颜色增强
+多帧图像序列
+Postscript 打印
+更多关于读取图像
+控制解码器
+Bands
+Mode（模式）
+Size（大小）
+Coordinate System
+Palette
+Info
+Filters（过滤器）
+
+
+https://pillow-cn.readthedocs.io/zh_CN/latest/guides.html
+
+图像存储
+PIL 设计用于图像归档和图像批量处理，你可以使用它建立缩略图，转换格式，打印图片等等。
+
+现在的版本可以验证和读取大量的图片格式。写入有意设计为只能写入常用的文件格式。
+
+图像显示
+现在的版本包含了 Tk PhotoImage 和 BitmapImage 接口, 以及 Windows DIB interface ，这有助于在 Windows 下使用。
+
+为了方便测试，还提供了 show() 方法，可以保存图像到磁盘并显示。
+
+图像处理
+这个库包含了基本的图像处理功能，包括点操作，使用内置卷积内核过滤，色彩空间转换。
+
+这个库还支持更改图像大小、旋转、自由变换。
+
+有一个直方图方法允许你统计图像，这可以用于对比度增强和全局统计分析。
+
+
